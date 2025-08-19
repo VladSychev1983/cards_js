@@ -1,0 +1,82 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.container {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+.cards {
+    margin: 10px 0 10px 0;
+    height: 25px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.card {
+  float: left;
+  width: 39px;
+  height: 25px;
+  background-size: contain;
+  background-position: center;
+  margin-right: 4px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.card-form-widget {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto;
+    
+}
+
+.submit {
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+.card.mir {
+  background-image: url(../img/card-mir.svg);
+}
+
+.card.visa {
+  background-image: url(../img/card-visa.svg);
+}
+
+.card.mastercard {
+  background-image: url(../img/card-mastercard.svg);
+}
+
+.card.american-express {
+  background-image: url(../img/card-american-express.svg);
+}
+
+.card.discover {
+  background-image: url(../img/card-discover.svg);
+}
+
+.disabled {
+    filter: grayscale(100%);
+}
+
+.enabled {
+    filter: none;
+}
