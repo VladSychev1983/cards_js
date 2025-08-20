@@ -24,6 +24,7 @@ export class CardFormWidget {
             <button class="submit btn-success">Click to Validate</button>
             </div>
         </form>
+        <p class="result"></p>
         `;
   }
 
@@ -42,6 +43,9 @@ export class CardFormWidget {
   static get liSelector() {
     return ".card";
   }
+  static get resultSelector() {
+    return ".result";
+  }
 
   bindToDOM() {
     this.parentEl.innerHTML = CardFormWidget.markup;
@@ -50,7 +54,7 @@ export class CardFormWidget {
     this.input = this.element.querySelector(CardFormWidget.inputSelector);
     this.element.addEventListener("submit", this.onSubmit);
     this.cardList = this.parentEl.querySelectorAll(CardFormWidget.liSelector);
-    this.result = document.getElementById("result");
+    this.result = this.parentEl.querySelector(CardFormWidget.resultSelector);
   }
 
   onSubmit(e) {

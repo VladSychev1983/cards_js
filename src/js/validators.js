@@ -4,7 +4,6 @@ export function isValidCard(cardNumber) {
     return false;
   }
   const companyPay = getCardCompany(cardNumber);
-  console.log("detected complany:" + companyPay);
   if (companyPay) {
     return companyPay;
   }
@@ -32,8 +31,6 @@ export function luhnCheck(cardNumber) {
     sum += digit;
     shouldDouble = !shouldDouble;
   }
-  let result = sum % 10 == 0;
-  console.log(result);
   return sum % 10 == 0;
 }
 
