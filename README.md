@@ -1,6 +1,3 @@
-![CI](https://github.com/VladSychev1983/test-cicd/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/VladSychev1983/cards_js/actions/workflows/web.yml/badge.svg)
 
-# Webpack5
-
-[Руководство по настройке Webpack](https://webpack.js.org/guides/)
-[Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
+# Валидатор кредитных карт с покрытием юнит нестами.
