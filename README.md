@@ -2,4 +2,4 @@
 
 # Валидатор кредитных карт с покрытием unit тестами.
 
-[Ссылка на виджет ](https://vladsychev1983.github.io/cards-js/)
+[Ссылка на виджет ](https://vladsychev1983.github.io/cards_js/)
